@@ -1,0 +1,8 @@
+This repo holds documentation on how I want my files to be saved.
+
+I do have a lot of different files, on different computers or devices. Some of
+it is code, some of it is media files.
+
+This will try to put a bit of order in all this chaos and try to find the best
+way to organize my stuff and back it up so I do not have to worry about losing
+anything.
