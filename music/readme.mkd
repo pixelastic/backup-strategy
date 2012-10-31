@@ -1,0 +1,125 @@
+Definition
+==========
+
+I own music in different formats. Most of it is mp3, but I slowly replace them
+with `ogg` and `flac` version whenever I can.
+
+Devices
+=======
+
+This music library will be copied on various devices from home computer to
+laptop to cellphone and portable media player. All this different devices have
+different playing capabilities and storage capacity.
+
+File formats
+============
+
+I own music in various file formats. Most of it is `mp3`, but I'd rather use
+`ogg` when I can and `flac` for long term.
+
+I absolutly do not want anything in `wma` format, but I do have a few files in
+`wav` format (which are mostly sounds extracted from video games) or `spc`
+(SNIN soundcard dump).
+
+File tree
+=========
+
+I used to sort my music by genre, but I now have a collection too big for it to
+fit in definite slots and a lot of albums overlap. I now use a file tree like
+the following
+
+	A/
+		Asura/
+			[2000] - Code Eternity/
+				01 - Like a Summer Day.mp3
+				...
+	
+i.e, a top directory for each letter of the alphabet, in which I have
+a directory for each artist, in which I have directories for each albums, with
+the release year in square brackets prepended.
+
+Each song is then named `{track number} - {track name}.mp3`, with `track
+number` prepended with `0` if need be. As said earlier, `ogg` is also preferred
+over `mp3` if available.
+
+
+FLAC
+====
+
+If I do have the original music in `flac` format, it is in a `flac/`
+subdirectory of the album directory.
+
+Cover
+=====
+
+Some devices are able to read the cover image of albums and display it when the
+song is played. I put this file in the album directory, in `jpg` format.
+The file is named `{Artist} - {Album}.jpg`.
+
+ID3
+===
+
+All `mp3` files will have correct id3 tagging. They must have at least the
+Artist, Album, Title and Track number fields. The Comment field or any other
+fields containing information about the ripping software used, website where it
+was downloaded or other useless information must be removed.
+
+The cover must not be included in the id3 tags either.
+
+I don't really know what to do about the genre field as this is highly
+subjective and a large music collection tend to have hundred of different
+genre, rendering the "search by genre" feature useless.
+
+Albums and Singles
+==================
+
+I do not like having just a few songs of an artist and like listening to
+a whole album to get a general idea. 
+
+I do have a special folder of easy-listening, catchy or funny songs, but this
+is not the main path I follow.
+
+Soundtracks
+===========
+
+An important part of my collection are movie and game soundtrack. The
+previously described file tree will not be a good fit for soundtracks. Instead,
+I'll use this one :
+
+	A
+		American Beauty
+			01 - Dead Already.mp3
+			...
+		...
+	...
+
+i.e. a directory for each letter of the alphabet containing a directory for
+each movie/game with the audio files in it. It means we simply skip the artist
+folder as this is not really usefull in soundtracks.
+
+Backup
+======
+
+I will have a *master* repository, holding both the current state of the
+library and the history of previous versions. This will be saved on an external
+hard drive of ~500Go.
+
+I will then have, on every other device (home computer, laptop, cellphone,
+media player) a (partial) clone of this *master*, without the history.
+
+I'll also have a second external hard drive, of the same capacity as the
+*master* that I'll use as a secondary backup, named *backup*. Every month I'll
+do a full copy of the repo located on *master* to *backup*.
+
+*master* will be physically located at my place, at home, and I'll use it often
+to add or remove albums on it. *backup* will be physically located outside of
+my home, maybe at work, or at a friend or family member. I'll go get it once
+every month, copy *master* content on it, and then move *backup* back to where
+it belongs.
+
+When I'll download/rip new music, I'll first make sure to clean it and fit my
+file tree/id3/naming requirements, then add it to *master*.
+
+Then, any device will be able to pull music from the *master*. I might have to
+write custom `rsync` scripts to do this pull because each device will need
+a different set of files based on storage capacity and playing abilities.
