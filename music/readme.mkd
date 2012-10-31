@@ -123,3 +123,8 @@ file tree/id3/naming requirements, then add it to *master*.
 Then, any device will be able to pull music from the *master*. I might have to
 write custom `rsync` scripts to do this pull because each device will need
 a different set of files based on storage capacity and playing abilities.
+
+Versioning
+==========
+
+To keep track of the history, I think that I'll use `boar`.
