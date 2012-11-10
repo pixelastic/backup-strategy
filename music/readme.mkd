@@ -1,9 +1,3 @@
-Definition
-==========
-
-I own music in different formats. Most of it is mp3, but I slowly replace them
-with `ogg` and `flac` version whenever I can.
-
 Devices
 =======
 

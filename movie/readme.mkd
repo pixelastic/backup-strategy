@@ -1,3 +1,30 @@
+File format
+===========
+
+When speaking of movie files, we should not talk of file format but video
+encoding, audio encoding and container format. In an ideal world I would have
+all my movie library in `mkv` files with `ogg` audio and `h264` video. But this
+is not the case and very few of my files match this description.
+
+Instead I mostly have `avi` containers with a bunch of various audio and video
+encoder. This will do for now.
+
+On the other hand, I do not want any `wmv` or `mov` file at all.
+
+Devices
+=======
+
+I intend my movie library to fit on a portable hard-drive that I can easily
+plug on compatible TV or computer to play my movies.
+
+I might also copy some files to other devices (cellphone, tablet, etc) to watch
+a movie on an irregular basis.
+
+Subtitles
+=========
+
+TO BE COMPLETED WITH DATA FROM FILE TREE
+
 File tree
 =========
 
@@ -64,4 +91,15 @@ Example :
 	I/
 		Indestructibles (Les)
 			Indestructibles (Les) [FR].avi
+
+Backup
+======
+
+I will have one *master* portable hard drive containing my whole library and
+its history, in the form of a `boar` repo. I will also have an other portable
+hard-drive of the exact same capacity, named *backup* that I'll keep at my work
+or at a friend place and only fetch once a monthe to sync with *master*.
+
+I think a 1To hard-drive will be enough to hold my library.
+
 
