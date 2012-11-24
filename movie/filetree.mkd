@@ -1,0 +1,45 @@
+Overview
+========
+
+Each movie will be self-contained in a directory of the exact same name (see
+filenaming convention for more details). In this directory might also live
+subtitles files.
+
+All this movie directories themselves lives in a parent directory named after
+the first letter of their name.
+
+For example, `A/American Beauty/` will hold `American Beauty.avi` and `American
+Beauty [FR].srt`.
+
+Numbers
+=======
+
+Movies starting with a number will all be grouped in a special directory named
+`0-9`.
+
+For example, `99F.avi` full path will be `0–9/99F/99F.avi`.
+
+Saga
+====
+
+If several movies are part of a main saga, I add an intermediate folder named
+after the saga.
+
+For example, all Batman movies will be in `B/Batman/`.
+
+Then, each movie folder in the saga gets prefix with the index of this movie in
+the saga, prefix with a `0` if need be.  A saga can be incomplete, but the
+folders must still be named according to the full released saga. 
+
+For example, here is what my `Batman/` folder look like :
+
+	B/
+		Batman/
+			01 - Batman/
+				Batman.avi
+			02 - Batman Returns/
+				Batman Returns.avi
+			05 - Batman Begins/
+				Batman Begins.avi
+			06 - Dark Knight (The)/
+				Dark Knight (The).avi

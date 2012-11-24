@@ -1,16 +1,3 @@
-File format
-===========
-
-When speaking of movie files, we should not talk of file format but video
-encoding, audio encoding and container format. In an ideal world I would have
-all my movie library in `mkv` files with `ogg` audio and `h264` video. But this
-is not the case and very few of my files match this description.
-
-Instead I mostly have `avi` containers with a bunch of various audio and video
-encoder. This will do for now.
-
-On the other hand, I do not want any `wmv` or `mov` file at all.
-
 Devices
 =======
 
@@ -19,78 +6,6 @@ plug on compatible TV or computer to play my movies.
 
 I might also copy some files to other devices (cellphone, tablet, etc) to watch
 a movie on an irregular basis.
-
-Subtitles
-=========
-
-TO BE COMPLETED WITH DATA FROM FILE TREE
-
-File tree
-=========
-
-I used to order my movies by genre, but it soon became cluttered in a lot of
-genre and sub-genre that only me could understand, and more often than not, not
-even me.
-
-I now use an alphabetical ordering, with a main directory for each letter of
-the alphabet. In it, I put a directory for each movie, putting common
-prepositions like (The, Le, La, etc) at the end of the name, as to not clutter
-the `T/` and `L/` directories.
-
-I also wrap films of a same franchise (like Batman, Ice Age, Harry Potter,
-etc) in a common directory with subdirectories for each movie, but prepended
-with the index of the movie in the franchise.
-
-I also name each movie file by the official name of the movie, as found on
-Wikipedia. I put a subtitle with the exact same name (an `srt` file) in the
-same directory.
-
-I try to avoid dubbed movies, and rather like to have the movie in the original
-language and the matching subtitle file. But I still have some american movies
-with french voices (mostly cartoons). In that case, I add the audio stream
-language in the file name, between square brackets, like `[FR]`.
-
-When a movie file contains multiple audio streams, I separate them with and
-hyphen, like `[JP-FR]`.
-
-I try to avoid as much as I can movies with embedded burned subtitles, and
-rather take movies without subtitles, or in an `mkv` container allowing for
-easy swapping/disabling. When a movie contains a subtitle, I add it to the
-filename by prepending a bracketed, hyphen-separated list of languages,
-prepended by `ST`, like so : `[STFR]`, or `[STFR-ES]`.
-
-
-Example :
-
-	B/
-		Be Kind, Rewind/
-			Be Kind, Rewind.avi
-			Be Kind, Rewind.srt
-		Blues Brothers (The)/
-			Blues Brothers (The).avi
-			Blues Brothers (The).srt
-		Bourne/
-			01 - Bourne Identity (The)/
-				Bourne Identity (The).avi
-				Bourne Identity (The).srt
-			02 - Bourne Supremacy (The)
-				 Bourne Supremacy (The).mp4
-				 Bourne Supremacy (The).srt
-			03 - Bourne Ultimatum (The)
-				 Bourne Ultimatum (The).avi
-				 Bourne Ultimatum (The).srt
-
-	[...]
-
-	D/
-		Death Note/
-			Death Note [STFR].avi
-
-	[...]
-
-	I/
-		Indestructibles (Les)
-			Indestructibles (Les) [FR].avi
 
 Backup
 ======

@@ -1,0 +1,61 @@
+Overview
+========
+
+Here is a guide to a coherent file naming covention accross my movie
+collection.
+
+Each movie file should be named as the official name of the movie (including
+capitalization), in the original language. For example `Back to the Future.avi`
+or `Je vais bien ne t'en fais pas.avi`.
+
+
+Children movies
+===============
+
+For some movies, especially children one, I might have them in a different
+language that the original one. For this movies, I will put the name of the
+movie in the final language, not the original one.
+
+To avoid confusion when both names are the same, I also add the language code
+between brackets.
+
+For example `Le Roi Lion [FR].avi` for the french dubbed version of `The Lion
+King`.
+
+Different alphabet
+==================
+
+If I am unable to read the name of the movie in the original language (for
+example in Chinese, Japanese, Russian or Greek), I'll put the English
+equivalent instead.
+
+For example `20th Century Boys.avi` instead of `20世紀少年 Nijusseiki
+Shōnen.avi`.
+
+Articles
+========
+
+Definite and indefinite articles ("the", "a", "an", etc) starting a movie names
+will be moved at the end of the name, wrapped in parenthesis.
+
+For example `Hangover (The).avi` instead of `The Hangover.avi`.
+
+The same will apply in other languages ("le", "la", "les" in french or "el",
+"la" in spanish).
+
+Subtitles
+=========
+
+Subtitles files must reside in the same folder as the movie and be named
+exactly the same, but suffixed with the language code between brackets.
+
+For example, the subtitle for `Mary and Max.avi` will be named `Mary and Max
+[FR].srt`
+
+Unfortunatly, some movies will have embedded subtitles directly in the movie
+file. In that case, this should be added to the file name too, in the form
+`[ST{language}]`.
+
+For example, `Down by Law [STFR].avi` if french subtitles are embedded in "Down
+by Law".
+

@@ -1,0 +1,13 @@
+Overview
+========
+
+Movies come in a wide variety of format and encodings. I prefer having `mkv`
+files holding an `h264` video stream and `ogg` audio stream, but must of the
+time will allow any `avi` file with non-exotic video/audio encoding.
+
+On the other hand, I do not want any `wmw`, `asf` or `mov` file.
+
+Subtitles
+=========
+
+Subtitle files must be in `srt` format.
